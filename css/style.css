@@ -1,0 +1,144 @@
+/* common css start */
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+}
+header{
+    border-bottom: .5px solid #3f3f3f4a;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+    padding: 0 50px !important;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #fff;
+    transition: .33s linear;
+}
+.btn_cm{
+    background: #396C03;
+    color: #fff;
+    border-radius: 225px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.log{
+    font-size: 25px;
+    margin-left: 50px;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+}
+.btn_cm:hover{
+    background-color: orange;
+    color: #fff;
+}
+.btn_cm:activec{
+    background-color: #396C03;
+    color: #fff;
+}
+
+.cart{
+    width: 65px;
+    height: 65px;
+    margin-left: 23px;
+}
+/* hero start */
+.hero{
+    margin-top: 100px;
+}
+.hero h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.hc{
+    color: #396C03;
+    font-family: "Merienda", cursive;
+}
+
+.hero h5{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.lb{
+    padding: 10px 35px;
+}
+.ic{
+    width: 400px;
+    height: 45px;
+    border-radius: 50px;
+}
+/* explore start */
+.explore{
+    margin-top: 100px;
+}
+.btc{
+    margin-top: 14px;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.ex{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+/* feature start  */
+.feature {
+    margin-top: 100px;
+}
+.c_padd {
+    padding-bottom: 100px;
+}
+.s_feature {
+    margin-top: 40px;
+    padding: 55px 0 50px;
+     /*  #F8FFFB */
+    border-radius: 10px;
+    transition: .33s;
+}
+.s_feature:hover {
+    /* background-color: #396C03; */
+    color: #676767;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.s_img {}
+.s_img img {
+    margin: 15px 0;
+    width: 65px;
+    height: 75px;
+}
+.s_h2 {
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #3F3F3F;
+}
+.s_p {
+    margin: 15px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+/* feature end */
+
+/* item start */
+.item1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/chefimg.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
